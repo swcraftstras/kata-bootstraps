@@ -4,16 +4,9 @@ A minimal setup with Java [Cucumber](https://cucumber.io/docs/guides/10-minute-t
 
 You can use [maven](https://maven.apache.org/)
 
-## Setup
-
-    git clone https://github.com/swkBerlin/kata-bootstraps
-    cd java/cucumber
-
-Open as preexisting project in your favorite IDE.
-
 ## Running Tests
 
-To execute the tests run `mvn integration-test` or run the tests from the IDE you are using
+To execute the tests run `mvn test` or run the tests from the IDE you are using
 
 ## IDEA hint
 
