@@ -1,7 +1,9 @@
 #!/bin/bash
 
- docker run \
+docker run \
     -v $(pwd):/data \
     -w /data \
-    -i -t composer \
-    composer install --prefer-dist && ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests
+    -i -t composer:2 \
+    php ./vendor/phpunit/phpunit/phpunit --no-configuration \
+           --test-suffix Test.php \
+           ./tests
