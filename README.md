@@ -10,6 +10,7 @@
 [![go-ci-badge]][ci-actions]
 
 
+
 Empty projects for e.g. Katas with testing support in different languages
 (usually with a failing test, in order to know where to start)
 
