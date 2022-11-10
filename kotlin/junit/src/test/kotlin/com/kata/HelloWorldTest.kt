@@ -1,11 +1,13 @@
 package com.kata
 
-import org.junit.jupiter.api.*
-import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
 
-internal class HelloWorldTest {
+internal class
+HelloWorldTest {
 
-    @Test fun greeting() {
+    @Test
+    fun greeting() {
         assertEquals("Hello World", HelloWorld().greeting())
     }
 }
