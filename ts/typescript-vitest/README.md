@@ -1,4 +1,4 @@
-# TypeScript Jest boilerplate
+# TypeScript Vitest boilerplate
 
 This boilerplate uses TypeScript and Vitest as testing framework.
 
