@@ -1,5 +1,5 @@
 package com.kata
 
 class HelloWorld {
-    fun greeting() = "Hello dWorld"
+    fun greeting() = "Hello World"
 }

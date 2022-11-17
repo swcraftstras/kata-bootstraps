@@ -8,6 +8,6 @@ HelloWorldTest {
 
     @Test
     fun greeting() {
-        assertEquals("Hello Wdorcld", HelloWorld().greeting())
+        assertEquals("Hello Wordl", HelloWorld().greeting())
     }
 }
