@@ -1,0 +1,14 @@
+{
+  "name": "typescript-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4",
+    "vitest": "^0.25.2"
+  }
+}
