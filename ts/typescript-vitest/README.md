@@ -4,15 +4,25 @@ This boilerplate uses TypeScript and Vitest as testing framework.
 
 ## Installing dependencies
 
-```bash
+```shell
+# With node
 npm ci
+# With https://bun.sh
+bun i
+## With https://pnpm.io
+pnpm i
+## With https://yarnpkg.com/
+yarn
 ```
+
 ## Running tests
 
-```bash
-# Run tests once
-npm run test
+For other packagers replace `npm` with `bun` | `pnpm` | `yarn`.
 
-# Watch tests 
-npm run test:watch
+```shell
+# Watch tests
+npm test
+
+# Run tests once
+npm run test:once
 ```
